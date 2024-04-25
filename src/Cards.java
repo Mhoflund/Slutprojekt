@@ -1,6 +1,6 @@
 public class Cards {
     // attributes
-    private String name;
+    private static String name;
     private String type;
 
     // Constructer
