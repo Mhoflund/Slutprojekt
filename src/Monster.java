@@ -7,4 +7,10 @@ public class Monster extends Cards{
         super(name, "monster");
         this.level= level;
     }
+
+    // getters & setters
+    @Override
+    public int getLevel() {
+        return level;
+    }
 }

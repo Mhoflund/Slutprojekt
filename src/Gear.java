@@ -1,9 +1,11 @@
 
 public class Gear {
+    // Attributes
     private String type;
     private String name;
+    private int defenseLevel;
 
-    // Constructer
+    // Constructor
     public Gear(String name, String type){
         this.name = name;
         this.type = type;
@@ -17,5 +19,9 @@ public class Gear {
 
     public String getName() {
         return name;
+    }
+
+    public int getDefenseLevel() {
+        return defenseLevel;
     }
 }

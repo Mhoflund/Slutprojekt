@@ -3,6 +3,7 @@ public class Cards {
     private static String name;
     private String type;
 
+
     // Constructer
     public Cards(String name, String type){
         this.name = name;
@@ -14,8 +15,14 @@ public class Cards {
         return type;
     }
 
-    public static String getName(){
+    public String getName(){
         return name;
     }
+
+    public int getLevel(){
+        return 0;
+    }
+
+
 
 }
